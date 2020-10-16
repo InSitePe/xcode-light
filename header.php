@@ -8,6 +8,8 @@
   <meta name="author" content="Elias Fuentes">
   <meta name="generator" content="Visual Studio Code">
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/fontawesome-free/css/all.min.css">
   <!-- Bootstrap 4.5.3 -->
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/bootstrap/css/bootstrap.min.css">
   <!-- Aqui va el CSS -->
@@ -19,13 +21,14 @@
   <header class="my-logo">
   <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a></h1>
 </header>
-<?php wp_nav_menu( array( 'header-menu' => 'header-menu' ) ); ?>
-
+<li>aqui vas
+<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+<li>fin de aqui
 
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-white border-bottom shadow-sm">
   <div class="container-xl">
-    <a class="navbar-brand text-dark" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a>
+    <a class="navbar-brand text-dark" href="<?php echo esc_url( home_url( '/' ) ); ?>"><strong><i class="fas fa-code"></i></strong> <?php bloginfo('name'); ?></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
