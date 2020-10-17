@@ -1,7 +1,7 @@
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+  <footer class="my-md-5 border-top" style="padding-top: 1.0rem!important;">
     <div class="row">
       <div class="col-12 col-md">
-        <p>Copyright &copy; 2017</p>
+        <p>Copyright &copy; <?php echo date("Y"); ?></p>
       </div>
     </div>
     
