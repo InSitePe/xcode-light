@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## XCODE-Light
 
-You can use the [editor on GitHub](https://github.com/handblack/xcode-light/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Es un theme para wordpress y funciona con versiones superiores v5.
 
 ### Markdown
 
