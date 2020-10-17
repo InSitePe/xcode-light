@@ -8,11 +8,13 @@
   </footer>
 </div><!-- FIN Contenedor -->
 
-      
+    <?php wp_footer(); ?> 
     <script src="<?php bloginfo('template_directory'); ?>/assets/jquery/jquery-3.5.1.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/assets/highlight/highlight.pack.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <?php wp_footer(); ?>
+<script>
+  hljs.initHighlighting();
+</script>
+    
   </body>
 </html>

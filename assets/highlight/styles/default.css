@@ -8,7 +8,10 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #F0F0F0;
+  background: rgba(255, 255, 255, 0.075);
+  letter-spacing: 0;
+  word-spacing: -2px;
+  font-size: 13px;
 }
 
 
